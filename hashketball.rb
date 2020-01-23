@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 def game_hash()
+=======
+def game_hash ()
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = {
     :home => {
       :team_name => "Brooklyn Nets",
@@ -109,7 +113,11 @@ def game_hash()
   }
 end
 
+<<<<<<< HEAD
 def num_points_scored(player)
+=======
+def num_points_scored (player)
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash()
   points = nil
   game_data.each do |team, team_info|
@@ -122,7 +130,11 @@ def num_points_scored(player)
   points
 end
 
+<<<<<<< HEAD
 def shoe_size(player)
+=======
+def shoe_size (player)
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash()
   size = nil
   game_data.each do |team, team_info|
@@ -135,7 +147,11 @@ def shoe_size(player)
   size
 end
 
+<<<<<<< HEAD
 def team_colors(target_team)
+=======
+def team_colors (target_team)
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash()
   colors = nil
   game_data.each do |team, team_info|
@@ -146,7 +162,11 @@ def team_colors(target_team)
   colors
 end
 
+<<<<<<< HEAD
 def team_names()
+=======
+def team_names ()
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash()
   names = []
   game_data.each do |team, team_info|
@@ -155,7 +175,11 @@ def team_names()
   names
 end
 
+<<<<<<< HEAD
 def player_numbers(team_name)
+=======
+def player_numbers (team_name)
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash
   jersey_nums = []
   game_data.each do |team, team_info|
@@ -182,7 +206,11 @@ def player_stats (player)
   stats
 end
 
+<<<<<<< HEAD
 def big_shoe_rebounds()
+=======
+def big_shoe_rebounds ()
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash()
   big_foot = nil
   big_foot_rebounds = 
@@ -199,7 +227,11 @@ def big_shoe_rebounds()
   big_foot_rebounds
 end
 
+<<<<<<< HEAD
 def most_points_scored()
+=======
+def most_points_scored ()
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash()
   player = nil
   most_points = 0
@@ -214,7 +246,11 @@ def most_points_scored()
   player
 end
 
+<<<<<<< HEAD
 def winning_team()
+=======
+def winning_team ()
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   game_data = game_hash()
   winning_team = nil
   home_points = 0
@@ -250,9 +286,15 @@ def player_with_longest_name()
   longest_name
 end
 
+<<<<<<< HEAD
 def long_name_steals_a_ton?()
   game_data = game_hash()
   longest_name = player_with_longest_name()
+=======
+def long_name_steals_a_ton? ()
+  game_data = game_hash()
+  longest_name = player_with_longest_name ()
+>>>>>>> 4a8ea6636ee4916903ff1cabd37d344a48d9909b
   steals_the_most = nil
   steals = 0 
   game_data.each do |team, team_info|
